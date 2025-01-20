@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Karla:ital,wght@0,200..800;1,200..800&family=Kenia&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+
+.header {
+    display: block;
+    background-image: url(img/Desktop\ -\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 1024px;
+}
+
+.container {
+    padding-top: 47px;
+    padding-left: 122px;
+}
+
+.header-line {
+    display: flex;
+    align-items: center;
+}
+
+.header-line > .home{
+    padding-left: 200px;
+}
+
+.header-line > .home > a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 97px;
+    font-family: 'Istok web';
+}
+
+.basic-info {
+    display: flex;
+    position: relative;
+}
+
+.text-page > .intro-text {
+    font-size: 150px;
+    font-family: "Kenia";
+    width: 412px;
+    line-height: 100%;
+}
+
+.text-page > .subtext {
+    font-family: "Istok web";
+    font-size: 20px;
+    width: 290px;
+}
+
+.phone {
+    position: absolute;
+    margin-left: 57%;
+}
+
+.phone > .iphone{ 
+    position: relative;
+    z-index: 2;
+}
+
+.phone > .kabel {
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    top: 82.3%;
+    right: 20%;
+}
+
+.header2  {
+    background-color: #D53005;
+    width: 1440px;
+    height: 1024px;
+}
+
+.contain-album {
+    position: relative;
+    margin-left: 8%;
+    margin-top: 6%;
+}
+
+.contain-album > p {
+    font-size: 30px;
+    font-family: "Karla";
+    height: 35px;
+}
+
+.text-ms {
+    padding-top: 150px;
+    width: 350px;
+}
+
+.text-ms > button {
+    width: 382px;
+    height: 83px;
+    font-size: 40px;
+    color: white;
+    margin-top: 100px;
+    border: 1px solid black;
+    font-family: "Karla";
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(160deg, rgba(177,62,24,1) 0%, rgba(243,80,26,1) 100%);
+}
+
+.contain-album > .hand {
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+
+.header3 {
+    height: 1024px;
+    width: 1440px;
+    font-family: "Karla";
+    background-image: linear-gradient(#D53005, black 75px)
+}
+
+.basic-text > .about {
+    margin-top: 90px;
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+.basic-text > .text-hd3 {
+    font-size: 30px;
+    width: 969px ;
+    margin-top: 25%;
+    margin-left: 20%;
+}
+
+.header4 {
+    background-color: #D53005;
+    width: 1440px;
+    height: 1024px;
+}
+
+.container-store {
+    margin-top: 83px;
+    margin-left: 110px;
+}
+
+.container-store > p {
+    font-size: 30px;
+    font-family: "Karla";
+}
+
+.store-button {
+    margin-top: 6%;
+    width: 350px;
+}
+
+.store-button > button {
+    width: 240px;
+    height: 60px;
+    border-radius: 40px;
+    border: 1px solid black;
+    font-size: 20px;
+    margin-top: 50px;
+    font-family: "Montserrat";
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4)
+}
+
+.store-button > .black-button {
+    background-color: black;
+    color: white;
+}
+
+.text-hd4{
+    flex-direction: column;
+    width: 431px;
+    text-align: center;
+    margin-left: 16px;
+}
+
+.text-hd4 > .highlighted-text{
+    font-size: 21px;
+    font-family: "Montserrat";
+    margin-bottom: 0;
+    margin-top: 28%;
+}
+
+.text-hd4 > .subtext-hd4 {
+    width: 431px;
+    font-size: 18px;
+    font-family: "Montserrat";
+}
+
+.mac > img {
+   margin-left: 23.4%;
+   margin-top: -38%;
+}
+
+.header5 {
+    width: 1440px;
+    background-image: linear-gradient(#D53005, black 30px);
+}
+
+.grit-contain {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 5%;
+    grid-column: 100px;
+    margin-top: 120px;
+    margin-left: 412px;
+    margin-right: 10px;
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
+.table-contents {
+    font-size: 20px;
+}
+
+.grit-contain * a {
+    color: white;
+    text-decoration: none;
+    line-height: 44px;
+}
+
+.additional-information {
+    margin-left: 106px;
+    margin-top: 76px;
+    margin-bottom: 74px;
+    font-family: "Montserrat";
+    font-size: 15px;
+}
+
+.information-text {
+    display: flex;
+    margin-top: 10px;
+}
+
+.information-text > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 99px;
+}
